@@ -1,6 +1,6 @@
-baseURL = "http://factoryoptic.github.io/"
+baseURL = "http://factoryoptic.github.io/public"
 languageCode = "en-us"
-title = "Factory Optic Documentaion"
+title = "Factory Optic Documentation"
 
 
 DefaultContentLanguage = "en"

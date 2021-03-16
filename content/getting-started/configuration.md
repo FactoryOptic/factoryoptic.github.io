@@ -28,7 +28,7 @@ The file consists of the following 5 lines and can be edited with any text edito
 
 In the case of DHCP, it will initially ignore lines 1-4 and attempt to use them if DHCP fails.
 
-Be advised, DHCP can take up to 60 seconds on powerup, so it is recommended that static IP is used.
+Be advised, DHCP can take up to 60 seconds on power-up, so it is recommended that static IP is used.
 
 Below is an example network.txt file
 

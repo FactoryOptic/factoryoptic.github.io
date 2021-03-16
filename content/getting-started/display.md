@@ -36,5 +36,5 @@ The display has a single page for showing the following information
     - Focal length
         - This will show lens focal length in mm
 - Notes
-    - During bookup, if no SD card is present, or SD card is missing config files or config files are not properly formatted, message will appear on device "SD Card not present"
+    - During boot-up, if no SD card is present, or SD card is missing config files or config files are not properly formatted, message will appear on device "SD Card not present"
         - insert card and reboot device

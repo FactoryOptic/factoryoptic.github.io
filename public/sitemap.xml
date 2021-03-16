@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://factoryoptic.github.io/getting-started/</loc>
+    <loc>http://factoryoptic.github.io/public/getting-started/</loc>
     <lastmod>2021-03-15T23:37:48+00:00</lastmod>
   </url><url>
-    <loc>http://factoryoptic.github.io/</loc>
+    <loc>http://factoryoptic.github.io/public/</loc>
     <lastmod>2021-03-15T23:37:48+00:00</lastmod>
   </url><url>
-    <loc>http://factoryoptic.github.io/getting-started/connections/</loc>
+    <loc>http://factoryoptic.github.io/public/getting-started/connections/</loc>
     <lastmod>2021-03-15T23:37:48+00:00</lastmod>
   </url><url>
-    <loc>http://factoryoptic.github.io/getting-started/configuration/</loc>
+    <loc>http://factoryoptic.github.io/public/getting-started/configuration/</loc>
     <lastmod>2021-03-15T23:37:48+00:00</lastmod>
   </url><url>
-    <loc>http://factoryoptic.github.io/getting-started/display/</loc>
+    <loc>http://factoryoptic.github.io/public/getting-started/display/</loc>
     <lastmod>2021-03-15T23:37:48+00:00</lastmod>
   </url><url>
-    <loc>http://factoryoptic.github.io/getting-started/unreal/</loc>
+    <loc>http://factoryoptic.github.io/public/getting-started/unreal/</loc>
     <lastmod>2021-03-15T23:37:48+00:00</lastmod>
   </url><url>
-    <loc>http://factoryoptic.github.io/categories/</loc>
+    <loc>http://factoryoptic.github.io/public/categories/</loc>
   </url><url>
-    <loc>http://factoryoptic.github.io/tags/</loc>
+    <loc>http://factoryoptic.github.io/public/tags/</loc>
   </url>
 </urlset>
