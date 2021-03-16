@@ -1,10 +1,18 @@
 ---
 title: "_Index"
-date: 2021-03-05T16:43:59-08:00
-lastmod: 2021-03-05T16:43:59-08:00
-publishdate: 2021-03-05T16:43:59-08:00
+date: 2021-03-15 23:51:07
+lastmod: 2021-03-15 23:37:48
+publishdate: 2021-03-15 23:37:51
+
 description: ""
 weight: 10
 ---
 
-Lorem Ipsum.
+# Welcome to the Factory Optic Documentation Website
+
+## Always a work in progress
+
+
+
+
+![header](/images/fac-header.png)
