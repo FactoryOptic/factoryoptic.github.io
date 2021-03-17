@@ -9,7 +9,7 @@ weight: 30
 
 ### SYNCRO-LINK Display
 
-![Display](/images/display.png)
+![Display](https://github.com/FactoryOptic/factoryoptic.github.io/blob/main/public/images//display.png?raw=true)
 
 The display has a single page for showing the following information
 

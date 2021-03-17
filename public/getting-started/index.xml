@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Getting Started on Factory Optic Documentation</title>
-    <link>http://factoryoptic.github.io/public/getting-started/</link>
+    <link>https://factoryoptic.github.io/public/getting-started/</link>
     <description>Recent content in Getting Started on Factory Optic Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Mar 2021 23:51:07 +0000</lastBuildDate><atom:link href="http://factoryoptic.github.io/public/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Mar 2021 23:51:07 +0000</lastBuildDate><atom:link href="https://factoryoptic.github.io/public/getting-started/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connections</title>
-      <link>http://factoryoptic.github.io/public/getting-started/connections/</link>
+      <link>https://factoryoptic.github.io/public/getting-started/connections/</link>
       <pubDate>Mon, 15 Mar 2021 23:51:07 +0000</pubDate>
-      
-      <guid>http://factoryoptic.github.io/public/getting-started/connections/</guid>
+
+      <guid>https://factoryoptic.github.io/public/getting-started/connections/</guid>
       <description>Connect SYNCRO-LINK  RS232  Connector on SYNCRO-LINK is DTE DE9M, with power on the Ring Indicator (pin 9) Currently only supports Cooke /i protocol and Zeiss eXtended data commands   LTC IN  BNC Supports SMPTE timecode   SYNC IN  BNC Analog video Supports most Bi-level and Tri-Level genlock formats   DC POWER (OPTIONAL)  If installed, will require 8-28VDC @ 4W   Ethernet/POE  10/100 Mbit Ethernet IEEE 802.</description>
     </item>
-    
+
     <item>
       <title>Configuration</title>
-      <link>http://factoryoptic.github.io/public/getting-started/configuration/</link>
+      <link>https://factoryoptic.github.io/public/getting-started/configuration/</link>
       <pubDate>Mon, 15 Mar 2021 23:51:07 +0000</pubDate>
-      
-      <guid>http://factoryoptic.github.io/public/getting-started/configuration/</guid>
+
+      <guid>https://factoryoptic.github.io/public/getting-started/configuration/</guid>
       <description>On the side of the SYNCRO-LINK is an microSD slot.
 The device should contain a card already, but if you need to replace, it should be formatted as FAT32 and can be up to 32GB.
 In the SD card is a folder named &amp;lsquo;config&amp;rsquo;. Inside this folder is the config files for the network.
 network.txt This is the config file for the device network settings.
 The file consists of the following 5 lines and can be edited with any text editor.</description>
     </item>
-    
+
     <item>
       <title>Display</title>
-      <link>http://factoryoptic.github.io/public/getting-started/display/</link>
+      <link>https://factoryoptic.github.io/public/getting-started/display/</link>
       <pubDate>Mon, 15 Mar 2021 23:51:07 +0000</pubDate>
-      
-      <guid>http://factoryoptic.github.io/public/getting-started/display/</guid>
+
+      <guid>https://factoryoptic.github.io/public/getting-started/display/</guid>
       <description>SYNCRO-LINK Display The display has a single page for showing the following information
  On the top bar  UDP will indicate whenever UDP packets are streaming Firmware version is shown on the right   On the left  ip address of SYNCRO-LINK ip address of destination server port on destination server  DHCP will show next to port if DHCP has been configured   mac address of SYNCRO-LINK   On the right  SYNC input format  Note, for UHD/4K, cameras will typically accept 1080 formats as Tri-Level sync for resolutions above 1080 do not exist.</description>
     </item>
-    
+
     <item>
       <title>Unreal Engine</title>
-      <link>http://factoryoptic.github.io/public/getting-started/unreal/</link>
+      <link>https://factoryoptic.github.io/public/getting-started/unreal/</link>
       <pubDate>Mon, 15 Mar 2021 23:51:07 +0000</pubDate>
-      
-      <guid>http://factoryoptic.github.io/public/getting-started/unreal/</guid>
+
+      <guid>https://factoryoptic.github.io/public/getting-started/unreal/</guid>
       <description>At the moment, Factory Optic is working on an Unreal Engine Plugin that supports all the available data from the lens. This will be completed by product launch.
 In the meantime, we are supporting an Open Source plugin.
 UE4.25 install  Download the 4.25 plugin here: http://loledvirtual.com/documentation/files/unreal/LONET-Unreal-Pluginv1.3.2binaries.zip Create a directory named &amp;lsquo;plugins&amp;rsquo; in your Unreal project folder, if it doesn&amp;rsquo;t already exist Unzip the file to the plugins directory  UE4.</description>
     </item>
-    
+
   </channel>
 </rss>

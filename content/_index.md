@@ -15,4 +15,4 @@ weight: 10
 
 
 
-![header](/images/fac-header.png)
+![header](https://github.com/FactoryOptic/factoryoptic.github.io/blob/main/public/images/fac-header.png?raw=true)

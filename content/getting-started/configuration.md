@@ -7,7 +7,7 @@ draft: false
 weight: 20
 ---
 
-![sdcard](/images/sdcard.png)
+![sdcard](https://github.com/FactoryOptic/factoryoptic.github.io/blob/main/public/images/sdcard.png?raw=true)
 
 On the side of the SYNCRO-LINK is an microSD slot.
 
