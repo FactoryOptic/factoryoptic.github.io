@@ -1,18 +1,14 @@
-baseURL: https://factoryoptic.github.io/public
-languageCode: en-us
-title: Factory Optic Documentation
-theme: github.com/thingsym/hugo-theme-techdoc
-
+baseURL = "https://factoryoptic.github.io/public"
+languageCode = "en-us"
+title = "Factory Optic Documentation"
+theme = "github.com/thingsym/hugo-theme-techdoc"
 
 DefaultContentLanguage = "en"
-theme = "hugo-theme-techdoc"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
 
 hasCJKLanguage = true
 metaDataFormat = "yaml"
-
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir= false
-enableMissingTranslationPlaceholders = false
 
 [params]
 
@@ -23,7 +19,7 @@ enableMissingTranslationPlaceholders = false
 
     # Documentation repository section
     # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    github_doc_repository = "https://github.com/FactoryOptic/factoryoptic.github.io"
 
     # Analytic section
     google_analytics_id = "" # Your Google Analytics tracking id

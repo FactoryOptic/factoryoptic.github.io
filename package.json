@@ -1,5 +1,5 @@
 {
-  "name": "hugo-theme-techdoc",
+  "name": "github.com/thingsym/hugo-theme-techdoc",
   "version": "0.9.6",
   "description": "The Techdoc is a Hugo Theme for technical documentation.",
   "main": "gulpfile.js",
