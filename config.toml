@@ -1,6 +1,7 @@
-baseURL = "https://factoryoptic.github.io/public"
-languageCode = "en-us"
-title = "Factory Optic Documentation"
+baseURL: https://factoryoptic.github.io/public
+languageCode: en-us
+title: Factory Optic Documentation
+theme: github.com/thingsym/hugo-theme-techdoc
 
 
 DefaultContentLanguage = "en"
