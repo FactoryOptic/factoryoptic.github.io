@@ -7,12 +7,13 @@ publishdate: 2021-03-15 23:37:51
 description: ""
 weight: 10
 ---
+![header](/public/images/fac-header.png?raw=true)
 
 # Welcome to the Factory Optic Documentation Website
 
-## Always a work in progress
+## Home of the SYNCRO-LINK MARK-ZERO
 
 
 
 
-![header](https://github.com/FactoryOptic/factoryoptic.github.io/blob/main/public/images/fac-header.png?raw=true)
+

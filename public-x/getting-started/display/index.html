@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Display - Factory Optic Documentation</title>
 <meta name="description" content="Factory Optic Docs">
-<meta name="generator" content="Hugo 0.81.0" />
+<meta name="generator" content="Hugo 0.83.1" />
 <link href="https://factoryoptic.github.io/public/index.xml" rel="alternate" type="application/rss+xml">
 <link rel="canonical" href="https://factoryoptic.github.io/public/getting-started/display/">
 <link rel="stylesheet" href="https://factoryoptic.github.io/public/css/theme.min.css">
@@ -18,24 +18,24 @@
 :root {}
 </style>
 <meta property="og:title" content="Display" />
-<meta property="og:description" content="SYNCRO-LINK Display The display has a single page for showing the following information
- On the top bar  UDP will indicate whenever UDP packets are streaming Firmware version is shown on the right   On the left  ip address of SYNCRO-LINK ip address of destination server port on destination server  DHCP will show next to port if DHCP has been configured   mac address of SYNCRO-LINK   On the right  SYNC input format  Note, for UHD/4K, cameras will typically accept 1080 formats as Tri-Level sync for resolutions above 1080 do not exist." />
+<meta property="og:description" content="SYNCRO-LINK Display The SYNCRO-LINK has an onboard OLED display that displays information.
+Page 1  On the top bar  UDP will indicate whenever UDP packets are streaming, usually takes 45-60 seconds afterbootup if the network settings are correct Firmware version is shown on the right   On the left  ip address of SYNCRO-LINK ip address of destination server port on destination server  DHCP will show next to port if network is configured as DHCP   mac address of SYNCRO-LINK   On the right  LTC/Timecode  This should appear and change every frame when timecode is present When timecode is no longer connected, the last timecode received will show LTC is limited to 30 frames max, but when operating in double-rate video formats, such as 47." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://factoryoptic.github.io/public/getting-started/display/" /><meta property="og:image" content="https://factoryoptic.github.io/public/images/og-image.png"/><meta property="article:section" content="getting-started" />
 <meta property="article:published_time" content="2021-03-15T23:37:51&#43;00:00" />
-<meta property="article:modified_time" content="2021-03-15T23:37:48&#43;00:00" /><meta property="og:site_name" content="Hugo Techdoc Theme" />
+<meta property="article:modified_time" content="2021-03-15T23:37:48&#43;00:00" /><meta property="og:site_name" content="Factory Optic Docs" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://factoryoptic.github.io/public/images/og-image.png"/>
 
 <meta name="twitter:title" content="Display"/>
-<meta name="twitter:description" content="SYNCRO-LINK Display The display has a single page for showing the following information
- On the top bar  UDP will indicate whenever UDP packets are streaming Firmware version is shown on the right   On the left  ip address of SYNCRO-LINK ip address of destination server port on destination server  DHCP will show next to port if DHCP has been configured   mac address of SYNCRO-LINK   On the right  SYNC input format  Note, for UHD/4K, cameras will typically accept 1080 formats as Tri-Level sync for resolutions above 1080 do not exist."/>
+<meta name="twitter:description" content="SYNCRO-LINK Display The SYNCRO-LINK has an onboard OLED display that displays information.
+Page 1  On the top bar  UDP will indicate whenever UDP packets are streaming, usually takes 45-60 seconds afterbootup if the network settings are correct Firmware version is shown on the right   On the left  ip address of SYNCRO-LINK ip address of destination server port on destination server  DHCP will show next to port if network is configured as DHCP   mac address of SYNCRO-LINK   On the right  LTC/Timecode  This should appear and change every frame when timecode is present When timecode is no longer connected, the last timecode received will show LTC is limited to 30 frames max, but when operating in double-rate video formats, such as 47."/>
 <meta itemprop="name" content="Display">
-<meta itemprop="description" content="SYNCRO-LINK Display The display has a single page for showing the following information
- On the top bar  UDP will indicate whenever UDP packets are streaming Firmware version is shown on the right   On the left  ip address of SYNCRO-LINK ip address of destination server port on destination server  DHCP will show next to port if DHCP has been configured   mac address of SYNCRO-LINK   On the right  SYNC input format  Note, for UHD/4K, cameras will typically accept 1080 formats as Tri-Level sync for resolutions above 1080 do not exist."><meta itemprop="datePublished" content="2021-03-15T23:37:51&#43;00:00" />
+<meta itemprop="description" content="SYNCRO-LINK Display The SYNCRO-LINK has an onboard OLED display that displays information.
+Page 1  On the top bar  UDP will indicate whenever UDP packets are streaming, usually takes 45-60 seconds afterbootup if the network settings are correct Firmware version is shown on the right   On the left  ip address of SYNCRO-LINK ip address of destination server port on destination server  DHCP will show next to port if network is configured as DHCP   mac address of SYNCRO-LINK   On the right  LTC/Timecode  This should appear and change every frame when timecode is present When timecode is no longer connected, the last timecode received will show LTC is limited to 30 frames max, but when operating in double-rate video formats, such as 47."><meta itemprop="datePublished" content="2021-03-15T23:37:51&#43;00:00" />
 <meta itemprop="dateModified" content="2021-03-15T23:37:48&#43;00:00" />
-<meta itemprop="wordCount" content="206"><meta itemprop="image" content="https://factoryoptic.github.io/public/images/og-image.png"/>
+<meta itemprop="wordCount" content="355"><meta itemprop="image" content="https://factoryoptic.github.io/public/images/og-image.png"/>
 <meta itemprop="keywords" content="" /></head>
 <body><div class="container"><header>
 <h1>Factory Optic Documentation</h1><span class="version">Version 0.9.6</span><a href="https://github.com/FactoryOptic/factoryoptic.github.io" class="github"><i class="fab fa-github"></i></a>
@@ -52,11 +52,13 @@
 <main><h1>Display</h1>
 <h3 id="syncro-link-display">SYNCRO-LINK Display</h3>
 <p><img src="https://github.com/FactoryOptic/factoryoptic.github.io/blob/main/public/images//display.png?raw=true" alt="Display"></p>
-<p>The display has a single page for showing the following information</p>
+<p>The SYNCRO-LINK has an onboard OLED display that displays information.</p>
+<h4 id="page-1">Page 1</h4>
+<p><img src="images/syncrolink_page1.PNG" alt="page 1"></p>
 <ul>
 <li>On the top bar
 <ul>
-<li>UDP will indicate whenever UDP packets are streaming</li>
+<li>UDP will indicate whenever UDP packets are streaming, usually takes 45-60 seconds afterbootup if the network settings are correct</li>
 <li>Firmware version is shown on the right</li>
 </ul>
 </li>
@@ -66,7 +68,7 @@
 <li>ip address of destination server</li>
 <li>port on destination server
 <ul>
-<li>DHCP will show next to port if DHCP has been configured</li>
+<li>DHCP will show next to port if network is configured as DHCP</li>
 </ul>
 </li>
 <li>mac address of SYNCRO-LINK</li>
@@ -74,17 +76,17 @@
 </li>
 <li>On the right
 <ul>
-<li>SYNC input format
-<ul>
-<li>Note, for UHD/4K, cameras will typically accept 1080 formats as Tri-Level sync for resolutions above 1080 do not exist.</li>
-<li>When SYNC is not present, this line will go blank</li>
-<li>For any formats not supported, the format will be surrounded by *, for example *1080P/60*</li>
-</ul>
-</li>
 <li>LTC/Timecode
 <ul>
 <li>This should appear and change every frame when timecode is present</li>
 <li>When timecode is no longer connected, the last timecode received will show</li>
+<li>LTC is limited to 30 frames max, but when operating in double-rate video formats, such as 47.96, 48, 50, 59.94 or 60, SYNCRO-LINK will convert UDP packet timecode at the double rate, but the display will only show actual timecode.</li>
+</ul>
+</li>
+<li>SYNC input format
+<ul>
+<li>Note, for UHD/4K, cameras will typically accept 1080 formats as Tri-Level sync for resolutions above 1080 do not exist.</li>
+<li>When SYNC is not present or format is not supported, this line will go blank</li>
 </ul>
 </li>
 <li>Lens Name
@@ -93,9 +95,9 @@
 <li>This line will go blank when lens connection is removed</li>
 </ul>
 </li>
-<li>Focal length
+<li>Lens Firmware Version
 <ul>
-<li>This will show lens focal length in mm</li>
+<li>This will show the current firmware version as reported by the lens</li>
 </ul>
 </li>
 </ul>
@@ -110,13 +112,62 @@
 </ul>
 </li>
 </ul>
+<h4 id="page-2">Page 2</h4>
+<p><img src="images/syncrolink_page2.PNG" alt="page 2"></p>
+<ul>
+<li>On the left
+<ul>
+<li>Focus distance</li>
+<li>Lens t-stop
+<ul>
+<li>Readings are displayed in common aperture scale, with tenths resolution between marks. So 4-5 would be a T4 to T5.6 split</li>
+</ul>
+</li>
+<li>Zoom focal length</li>
+<li>Entrance pupil
+-this is a signed number, showing the distance of the entrance pupil from the film plane, with negative numbers being behind the film plane.</li>
+</ul>
+</li>
+</ul>
+<h4 id="page-3">Page 3</h4>
+<p><img src="images/syncrolink_page3.PNG" alt="page 3"></p>
+<ul>
+<li>On the left
+<ul>
+<li>Lens manufacturer</li>
+<li>Lens serial number</li>
+<li>Lens Owner</li>
+</ul>
+</li>
+</ul>
+<h4 id="page-4">Page 4</h4>
+<p><img src="images/syncrolink_page4.PNG" alt="page 4"></p>
+<ul>
+<li>
+<p>On the left</p>
+<ul>
+<li>PoE Voltage</li>
+<li>DC Voltage</li>
+<li>Streaming Format</li>
+</ul>
+</li>
+<li>
+<p>On the right</p>
+<ul>
+<li>LTC</li>
+<li>UTC date &amp; time of day</li>
+<li>SYNCRO-LINK Firmware version</li>
+<li>SYNCRO-LINK firmware generation date and time</li>
+</ul>
+</li>
+</ul>
 <div class="edit-meta">
 Last updated on 15 Mar 2021
 
 
 <br>
 Published on 15 Mar 2021
-<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/getting-started%5cdisplay.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://factoryoptic.github.io/public/getting-started/configuration/" title="Configuration"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Configuration</a>
+<br><a href="https://github.com/FactoryOptic/factoryoptic.github.io/edit/master/content/getting-started%5cdisplay.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://factoryoptic.github.io/public/getting-started/configuration/" title="Configuration"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Configuration</a>
 <a class="nav nav-next" href="https://factoryoptic.github.io/public/getting-started/unreal/" title="Unreal Engine">Next - Unreal Engine <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
 </footer>
