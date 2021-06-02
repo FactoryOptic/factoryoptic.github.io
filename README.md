@@ -31,4 +31,4 @@ Features
 * Powered via PoE (802.3af) or 2 pin Lemo, or both, for redundancy
 
 ## AVAILABLE NOW TO PURCHASE
-<a href="https://gaktory.com/product/syncro-link-mark-zero/"><img src="https://gaktory.com/wp-content/uploads/2014/12/logogold.png" width=200 alt="Gaktory.com">
+<a href="https://gaktory.com/store/factory-optic/"><img src="https://gaktory.com/wp-content/uploads/2014/12/logogold.png" width=200 alt="Gaktory.com">
