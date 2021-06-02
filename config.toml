@@ -1,15 +1,16 @@
 baseURL = "https://factoryoptic.github.io/public"
+
 languageCode = "en-us"
 title = "Factory Optic Documentation"
-theme = "github.com/thingsym/hugo-theme-techdoc"
-#theme = "hugo-theme-techdoc" #uncomment for local
+theme = "hugo-theme-techdoc"
+
+hasCJKLanguage = true
+metaDataFormat = "yaml"
 
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
-hasCJKLanguage = true
-metaDataFormat = "yaml"
 
 [params]
 
@@ -72,6 +73,11 @@ metaDataFormat = "yaml"
         name = "Home"
         url = "/"
         weight = 1
+
+    [[menu.main]]
+        name = "Twitter"
+        url = "https://twitter.com/factoryoptic"
+        weight = 2
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
