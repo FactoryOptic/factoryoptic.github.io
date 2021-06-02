@@ -9,11 +9,16 @@ weight: 10
 ---
 ![header](/public/images/fac-header.png?raw=true)
 
-# Welcome to the Factory Optic Documentation Website
+# Factory Optic Documentation
+Welcome to FACTORY OPTIC’s technical documentation. FACTORY OPTIC's intention is to have complete documentatin for using its products. If you see something missing, feel free to contribute [here](https://github.com/FactoryOptic/factoryoptic.github.io), or ask for help!
 
-## Home of the SYNCRO-LINK MARK-ZERO
+#### SYNCRO-LINK MARK-ZERO
+SYNCRO-LINK is FACTORY OPTIC's solution for seemless lens metadata integration with Unreal Engine and other virtual production systems. 
 
+![SYNCRO-LINK](/public/images/fac5-01.png)
 
+#### Getting started with SYNCRO-LINK
+You can purchase [here](https://gaktory.com/product/syncro-link-mark-zero/) then follow the user manuals on the left.
 
 
 
