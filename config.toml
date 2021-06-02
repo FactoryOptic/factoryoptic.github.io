@@ -1,8 +1,8 @@
 baseURL = "https://factoryoptic.github.io/public"
 languageCode = "en-us"
 title = "Factory Optic Documentation"
-#theme = "github.com/thingsym/hugo-theme-techdoc"
-theme = "hugo-theme-techdoc" #uncomment for local
+theme = "github.com/thingsym/hugo-theme-techdoc"
+#theme = "hugo-theme-techdoc" #uncomment for local
 
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
