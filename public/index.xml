@@ -34,7 +34,7 @@ A fresh copy of the SD Card can be found here</description>
       <pubDate>Mon, 15 Mar 2021 23:51:07 +0000</pubDate>
       
       <guid>https://factoryoptic.github.io/public/getting-started/display/</guid>
-      <description>SYNCRO-LINK Display The SYNCRO-LINK has an onboard OLED display that displays information.
+      <description>SYNCRO-LINK Display The SYNCRO-LINK has an onboard OLED display that displays useful information.
 Page 1  On the top bar  UDP will indicate whenever UDP packets are streaming, usually takes 45-60 seconds afterbootup if the network settings are correct Firmware version is shown on the right   On the left  ip address of SYNCRO-LINK ip address of destination server port on destination server  DHCP will show next to port if network is configured as DHCP   mac address of SYNCRO-LINK   On the right  LTC/Timecode  This should appear and change every frame when timecode is present When timecode is no longer connected, the last timecode received will show LTC is limited to 30 frames max, but when operating in double-rate video formats, such as 47.</description>
     </item>
     
@@ -44,9 +44,8 @@ Page 1  On the top bar  UDP will indicate whenever UDP packets are streaming, us
       <pubDate>Mon, 15 Mar 2021 23:51:07 +0000</pubDate>
       
       <guid>https://factoryoptic.github.io/public/getting-started/unreal/</guid>
-      <description>At the moment, Factory Optic is working on an Unreal Engine Plugin that supports all the available data from the lens. This will be completed by product launch.
-In the meantime, we are supporting an Open Source plugin.
-UE4.25 install  Download the 4.25 plugin here: http://loledvirtual.com/documentation/files/unreal/LONET-Unreal-Pluginv1.3.2binaries.zip Create a directory named &amp;lsquo;plugins&amp;rsquo; in your Unreal project folder, if it doesn&amp;rsquo;t already exist Unzip the file to the plugins directory  UE4.</description>
+      <description>The SYNCRO-LINK MARK-ZERO makes use of the LONET-Unreal-Plugin created by Andy Jaroz of LOLED VIRTUAL
+UE4.26 install  Download the 1.50 plugin from LOLED VIRTUAL&amp;rsquo;S Github site: https://loledvirtual.com/documentation/docs/unrealreleases/ Create a directory named &amp;lsquo;plugins&amp;rsquo; in your Unreal project folder, if it doesn&amp;rsquo;t already exist Unzip the file to the plugins directory  Open project in Unreal Engine  When you launch Unreal, open your project Unreal may warn that files are missing, you can select compile from source to generate if needed Unreal will let you know new plugins are available, make sure the LONET plugin is enabled  LiveLink  Open LiveLink  Select &amp;lsquo;+ Source&amp;rsquo;, then LOLED LiveLink, set the port number to the UDP port you configured in dest.</description>
     </item>
     
   </channel>
